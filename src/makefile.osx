@@ -26,11 +26,11 @@
 CC= gcc
 
 # Uncomment the following line for non-video teco
-#CFLAGS= ${OSVERS} ${DEBG} ${CCHEK} -O  -DOSX
+CFLAGS= ${OSVERS} ${DEBG} ${CCHEK} -O  -DOSX
 
 # Or, uncomment the following two lines for video teco
-CFLAGS= ${OSVERS} ${DEBG} ${CCHEK} -O  -DOSX -DCURSES
-TERMOBJS = -lncurses
+#CFLAGS= ${OSVERS} ${DEBG} ${CCHEK} -O  -DOSX -DCURSES
+#TERMOBJS = -lncurses
 
 CFLAGS += -Wno-dangling-else 
 

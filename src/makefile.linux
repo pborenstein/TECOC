@@ -26,11 +26,11 @@
 CC= gcc
 
 # Uncomment the following line for non-video teco
-#CFLAGS= ${OSVERS} ${DEBG} ${CCHEK} -O  -DLINUX
+CFLAGS= ${OSVERS} ${DEBG} ${CCHEK} -O  -DLINUX
 
 # Or, uncomment the following two lines for video teco
-CFLAGS= ${OSVERS} ${DEBG} ${CCHEK} -O  -DLINUX -DCURSES
-TERMOBJS = -lncurses
+#CFLAGS= ${OSVERS} ${DEBG} ${CCHEK} -O  -DLINUX -DCURSES
+#TERMOBJS = -lncurses
 
 
 COMPILE.c = $(CC) $(CFLAGS) $(CPPFLAGS) -c -g
